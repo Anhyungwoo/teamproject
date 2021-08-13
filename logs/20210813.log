@@ -540,3 +540,4 @@
 {"level":"error","message":"[14:09:31]비밀번호는 8자리 이상 입력해 주세요.","service":"general"}
 {"level":"error","message":"[14:12:18]회원명을 입력해 주세요.","service":"general"}
 {"level":"error","message":"[14:21:23]아이디를 입력하세요.","service":"general"}
+{"level":"error","message":"[15:16:01]아이디를 입력하세요.","service":"general"}
