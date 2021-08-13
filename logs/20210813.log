@@ -541,3 +541,12 @@
 {"level":"error","message":"[14:12:18]회원명을 입력해 주세요.","service":"general"}
 {"level":"error","message":"[14:21:23]아이디를 입력하세요.","service":"general"}
 {"level":"error","message":"[15:16:01]아이디를 입력하세요.","service":"general"}
+{"level":"error","message":"[16:05:20]비밀번호를 입력하세요.","service":"general"}
+{"level":"error","message":"[16:06:40]아이디를 입력하세요.","service":"general"}
+{"level":"error","message":"[16:06:42]아이디를 입력하세요.","service":"general"}
+{"level":"error","message":"[16:07:44]아이디를 입력하세요.","service":"general"}
+{"level":"error","message":"[16:07:47]아이디를 입력하세요.","service":"general"}
+{"level":"error","message":"[16:07:49]아이디를 입력하세요.","service":"general"}
+{"level":"error","message":"[16:09:46]아이디를 입력하세요.","service":"general"}
+{"level":"error","message":"[16:09:48]아이디를 입력하세요.","service":"general"}
+{"level":"error","message":"[16:23:09]비밀번호 확인이 일치하지 않습니다.","service":"general"}

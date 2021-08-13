@@ -40,14 +40,14 @@ module.exports.joinValidator = async (req, res, next) => {
 			await fs.access(filePath, constants.F_OK);
 
 			// 파일이 존재하면 -> 회원 중복 
-			return alert("이미 가입된 회원입니다. - " + req.body.memId, res);
+			return alert("이미 가입된 회원입니다. - " + req.body.memId, res, true);
 		} catch(e) { // 파일이 미 존재 -> 문제 없음
-			
+			console.log(e);
 		}
 		
 	} catch (err) {
 		logger(err.message, 'error');
-		return alert(err.message, res);
+		return alert(err.message, res, true);
 	}
 	next();
 };
@@ -64,7 +64,7 @@ module.exports.loginValidator = (req, res, next) => {
 		}
 		
 	} catch(err) {
-		return alert(err.message, res);
+		return alert(err.message, res, true);
 	}
 	next();
 };
